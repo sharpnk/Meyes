@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12A3A69B1BEADE3A004E9333 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A3A69A1BEADE3A004E9333 /* AppDelegate.swift */; };
+		12A3A69D1BEADE3A004E9333 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12A3A69C1BEADE3A004E9333 /* Assets.xcassets */; };
+		12A3A6A01BEADE3A004E9333 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12A3A69E1BEADE3A004E9333 /* MainMenu.xib */; };
+		12A3A6AB1BEADE3A004E9333 /* MeyesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A3A6AA1BEADE3A004E9333 /* MeyesTests.swift */; };
+		12A3A6B61BEADE3A004E9333 /* MeyesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A3A6B51BEADE3A004E9333 /* MeyesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12A3A6A71BEADE3A004E9333 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12A3A68F1BEADE3A004E9333 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12A3A6961BEADE3A004E9333;
+			remoteInfo = Meyes;
+		};
+		12A3A6B21BEADE3A004E9333 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12A3A68F1BEADE3A004E9333 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12A3A6961BEADE3A004E9333;
+			remoteInfo = Meyes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12A3A6971BEADE3A004E9333 /* Meyes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Meyes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12A3A69A1BEADE3A004E9333 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		12A3A69C1BEADE3A004E9333 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		12A3A69F1BEADE3A004E9333 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		12A3A6A11BEADE3A004E9333 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12A3A6A61BEADE3A004E9333 /* MeyesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeyesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12A3A6AA1BEADE3A004E9333 /* MeyesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeyesTests.swift; sourceTree = "<group>"; };
+		12A3A6AC1BEADE3A004E9333 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12A3A6B11BEADE3A004E9333 /* MeyesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeyesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12A3A6B51BEADE3A004E9333 /* MeyesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeyesUITests.swift; sourceTree = "<group>"; };
+		12A3A6B71BEADE3A004E9333 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12A3A6941BEADE3A004E9333 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12A3A6A31BEADE3A004E9333 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12A3A6AE1BEADE3A004E9333 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12A3A68E1BEADE3A004E9333 = {
+			isa = PBXGroup;
+			children = (
+				12A3A6991BEADE3A004E9333 /* Meyes */,
+				12A3A6A91BEADE3A004E9333 /* MeyesTests */,
+				12A3A6B41BEADE3A004E9333 /* MeyesUITests */,
+				12A3A6981BEADE3A004E9333 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		12A3A6981BEADE3A004E9333 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12A3A6971BEADE3A004E9333 /* Meyes.app */,
+				12A3A6A61BEADE3A004E9333 /* MeyesTests.xctest */,
+				12A3A6B11BEADE3A004E9333 /* MeyesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12A3A6991BEADE3A004E9333 /* Meyes */ = {
+			isa = PBXGroup;
+			children = (
+				12A3A69A1BEADE3A004E9333 /* AppDelegate.swift */,
+				12A3A69C1BEADE3A004E9333 /* Assets.xcassets */,
+				12A3A69E1BEADE3A004E9333 /* MainMenu.xib */,
+				12A3A6A11BEADE3A004E9333 /* Info.plist */,
+			);
+			path = Meyes;
+			sourceTree = "<group>";
+		};
+		12A3A6A91BEADE3A004E9333 /* MeyesTests */ = {
+			isa = PBXGroup;
+			children = (
+				12A3A6AA1BEADE3A004E9333 /* MeyesTests.swift */,
+				12A3A6AC1BEADE3A004E9333 /* Info.plist */,
+			);
+			path = MeyesTests;
+			sourceTree = "<group>";
+		};
+		12A3A6B41BEADE3A004E9333 /* MeyesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				12A3A6B51BEADE3A004E9333 /* MeyesUITests.swift */,
+				12A3A6B71BEADE3A004E9333 /* Info.plist */,
+			);
+			path = MeyesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12A3A6961BEADE3A004E9333 /* Meyes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12A3A6BA1BEADE3A004E9333 /* Build configuration list for PBXNativeTarget "Meyes" */;
+			buildPhases = (
+				12A3A6931BEADE3A004E9333 /* Sources */,
+				12A3A6941BEADE3A004E9333 /* Frameworks */,
+				12A3A6951BEADE3A004E9333 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Meyes;
+			productName = Meyes;
+			productReference = 12A3A6971BEADE3A004E9333 /* Meyes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		12A3A6A51BEADE3A004E9333 /* MeyesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12A3A6BD1BEADE3A004E9333 /* Build configuration list for PBXNativeTarget "MeyesTests" */;
+			buildPhases = (
+				12A3A6A21BEADE3A004E9333 /* Sources */,
+				12A3A6A31BEADE3A004E9333 /* Frameworks */,
+				12A3A6A41BEADE3A004E9333 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12A3A6A81BEADE3A004E9333 /* PBXTargetDependency */,
+			);
+			name = MeyesTests;
+			productName = MeyesTests;
+			productReference = 12A3A6A61BEADE3A004E9333 /* MeyesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		12A3A6B01BEADE3A004E9333 /* MeyesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12A3A6C01BEADE3A004E9333 /* Build configuration list for PBXNativeTarget "MeyesUITests" */;
+			buildPhases = (
+				12A3A6AD1BEADE3A004E9333 /* Sources */,
+				12A3A6AE1BEADE3A004E9333 /* Frameworks */,
+				12A3A6AF1BEADE3A004E9333 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12A3A6B31BEADE3A004E9333 /* PBXTargetDependency */,
+			);
+			name = MeyesUITests;
+			productName = MeyesUITests;
+			productReference = 12A3A6B11BEADE3A004E9333 /* MeyesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12A3A68F1BEADE3A004E9333 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Nan Kang";
+				TargetAttributes = {
+					12A3A6961BEADE3A004E9333 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					12A3A6A51BEADE3A004E9333 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 12A3A6961BEADE3A004E9333;
+					};
+					12A3A6B01BEADE3A004E9333 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 12A3A6961BEADE3A004E9333;
+					};
+				};
+			};
+			buildConfigurationList = 12A3A6921BEADE3A004E9333 /* Build configuration list for PBXProject "Meyes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12A3A68E1BEADE3A004E9333;
+			productRefGroup = 12A3A6981BEADE3A004E9333 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12A3A6961BEADE3A004E9333 /* Meyes */,
+				12A3A6A51BEADE3A004E9333 /* MeyesTests */,
+				12A3A6B01BEADE3A004E9333 /* MeyesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12A3A6951BEADE3A004E9333 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12A3A69D1BEADE3A004E9333 /* Assets.xcassets in Resources */,
+				12A3A6A01BEADE3A004E9333 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12A3A6A41BEADE3A004E9333 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12A3A6AF1BEADE3A004E9333 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12A3A6931BEADE3A004E9333 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12A3A69B1BEADE3A004E9333 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12A3A6A21BEADE3A004E9333 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12A3A6AB1BEADE3A004E9333 /* MeyesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12A3A6AD1BEADE3A004E9333 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12A3A6B61BEADE3A004E9333 /* MeyesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12A3A6A81BEADE3A004E9333 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12A3A6961BEADE3A004E9333 /* Meyes */;
+			targetProxy = 12A3A6A71BEADE3A004E9333 /* PBXContainerItemProxy */;
+		};
+		12A3A6B31BEADE3A004E9333 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12A3A6961BEADE3A004E9333 /* Meyes */;
+			targetProxy = 12A3A6B21BEADE3A004E9333 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		12A3A69E1BEADE3A004E9333 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12A3A69F1BEADE3A004E9333 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		12A3A6B81BEADE3A004E9333 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		12A3A6B91BEADE3A004E9333 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		12A3A6BB1BEADE3A004E9333 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Meyes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.sharpnk.Meyes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		12A3A6BC1BEADE3A004E9333 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Meyes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.sharpnk.Meyes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		12A3A6BE1BEADE3A004E9333 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MeyesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.sharpnk.MeyesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meyes.app/Contents/MacOS/Meyes";
+			};
+			name = Debug;
+		};
+		12A3A6BF1BEADE3A004E9333 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MeyesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.sharpnk.MeyesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meyes.app/Contents/MacOS/Meyes";
+			};
+			name = Release;
+		};
+		12A3A6C11BEADE3A004E9333 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MeyesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.sharpnk.MeyesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Meyes;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		12A3A6C21BEADE3A004E9333 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MeyesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.sharpnk.MeyesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Meyes;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12A3A6921BEADE3A004E9333 /* Build configuration list for PBXProject "Meyes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12A3A6B81BEADE3A004E9333 /* Debug */,
+				12A3A6B91BEADE3A004E9333 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12A3A6BA1BEADE3A004E9333 /* Build configuration list for PBXNativeTarget "Meyes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12A3A6BB1BEADE3A004E9333 /* Debug */,
+				12A3A6BC1BEADE3A004E9333 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		12A3A6BD1BEADE3A004E9333 /* Build configuration list for PBXNativeTarget "MeyesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12A3A6BE1BEADE3A004E9333 /* Debug */,
+				12A3A6BF1BEADE3A004E9333 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		12A3A6C01BEADE3A004E9333 /* Build configuration list for PBXNativeTarget "MeyesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12A3A6C11BEADE3A004E9333 /* Debug */,
+				12A3A6C21BEADE3A004E9333 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12A3A68F1BEADE3A004E9333 /* Project object */;
+}
